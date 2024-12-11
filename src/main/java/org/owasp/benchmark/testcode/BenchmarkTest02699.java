@@ -78,7 +78,7 @@ public class BenchmarkTest02699 extends HttpServlet {
         // Simple ? condition that assigns param to bar on false condition
         int num = 106;
 
-        bar = (7 * 42) - num > 200 ? "This should never happen" : param;
+        bar = (7 * 42) - num > 200 ? "This should never happen" : "param";
 
         return bar;
     }
